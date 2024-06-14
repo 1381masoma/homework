@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav {
+    background-color: pink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content:flex-end;
+    gap: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+
+    
+}
+nav a:hover{
+    color:black;
+    background-color:white ;
+    height: 100%;
+}
+.continar {
+    background-color: rgb(144, 235, 238);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row1{
+    display: flex;
+    gap: 20px;
+}
+.row2{
+    display: flex;
+    gap:20px;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+footer{ 
+    background-color: rgb(220, 245, 245);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.related-product{
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid white;
+    background-color: pink;
+    object-fit: none;
+    gap: 10px;
+    
+    width:100%;
+    position: relative;
+    
+}
+.related-product:hover .related-product-name{
+    visibility: visible;
+}
+.related-product:hover{
+    background-color: black;
+}
+.related-product:hover img{
+    opacity: 0.8;
+}
+
+.related-product-name{
+    background-color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid red;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    margin-left: 10px;
+
+      
+    
+}
+
+#bar{
+    width: 400px;
+    padding-left:-20px;
+    padding-right: 0%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 400px;
+
+  }
+
+
+.row1{
+    display: flex;
+}
+
+
+ 
+ .promo-cod{
+    background-color: pink;
+    border: 2px solid red;
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+   }
+   .related-product img{
+    width: 100%;
+   }
+   #pen{
+    width:780px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+   }
+   .hide{
+    margin-top: 10px;
+    position:absolute;
+    top: 0;
+    right:0;
+    margin-right: 15px;
+    background-color:black;
+    color: white;
+    width: 400px;
+    text-align: center;
+   }
+   .person{
+    position: relative;
+   }
+   .person .hide{
+    position: absolute;
+    visibility:hidden;
+    
+   }
+   .person:hover .hide{
+    visibility:visible;
+    
+   }
+   
+   .row{
+    display:flex;
+   }
+   .row img{
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 50%;
+   }
+   .name-info{
+    text-align: center;
+    margin-left: 80px;
+    width: 110px;
+   }
+   
+   
+ 
